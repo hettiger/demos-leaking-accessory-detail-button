@@ -13,6 +13,8 @@
 		5B92E2C4248282A2006A45AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B92E2C2248282A2006A45AE /* Main.storyboard */; };
 		5B92E2C6248282A5006A45AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B92E2C5248282A5006A45AE /* Assets.xcassets */; };
 		5B92E2C9248282A5006A45AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B92E2C7248282A5006A45AE /* LaunchScreen.storyboard */; };
+		5B92E2D124828322006A45AE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92E2D024828322006A45AE /* CustomTableViewCell.swift */; };
+		5B92E2D324828358006A45AE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B92E2D224828358006A45AE /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5B92E2C5248282A5006A45AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B92E2C8248282A5006A45AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B92E2CA248282A5006A45AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B92E2D024828322006A45AE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5B92E2D224828358006A45AE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				5B92E2BC248282A2006A45AE /* AppDelegate.swift */,
 				5B92E2BE248282A2006A45AE /* SceneDelegate.swift */,
 				5B92E2C0248282A2006A45AE /* ViewController.swift */,
+				5B92E2D224828358006A45AE /* TableViewController.swift */,
+				5B92E2D024828322006A45AE /* CustomTableViewCell.swift */,
 				5B92E2C2248282A2006A45AE /* Main.storyboard */,
 				5B92E2C5248282A5006A45AE /* Assets.xcassets */,
 				5B92E2C7248282A5006A45AE /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				5B92E2C1248282A2006A45AE /* ViewController.swift in Sources */,
 				5B92E2BD248282A2006A45AE /* AppDelegate.swift in Sources */,
+				5B92E2D124828322006A45AE /* CustomTableViewCell.swift in Sources */,
+				5B92E2D324828358006A45AE /* TableViewController.swift in Sources */,
 				5B92E2BF248282A2006A45AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
